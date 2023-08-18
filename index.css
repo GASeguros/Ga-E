@@ -34,6 +34,18 @@ ul{
 }
 /* HEADER E NAV BAR FIM */
 
+/* TITULO E IMAGEM */
+.imagemInicial > .imagemHome{
+  border-radius: 50%;
+}
+.esferas{
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/* TITULO E IMAGEM END*/
+
 .geral{
     display: flex;
     flex-direction: column;
@@ -53,7 +65,7 @@ ul{
 /* CARTOES DE PRODUTOS */
 .card {
     position: relative;
-    width: 190px;
+    width: 220px;
     height: 254px;
     background: #fff;
     border: solid 4px #333;
@@ -63,6 +75,7 @@ ul{
     justify-content: center;
     cursor: pointer;
     margin: 50px;
+    border-radius: 0px;
   }
   
   .card:hover {
